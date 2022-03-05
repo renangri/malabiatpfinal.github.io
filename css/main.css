@@ -1,0 +1,456 @@
+/* News Cards */
+.news-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  margin: 70px 0; }
+  .news-cards img {
+    width: 100%;
+    height: 180px; }
+  .news-cards h3 {
+    font-size: 20px;
+    margin: 10px 0; }
+  .news-cards a {
+    padding: 10px 0;
+    color: #f2f2f2;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold; }
+  .news-cards .textCard {
+    font-size: 30px;
+    font-weight: bold; }
+
+/* CARDS BANNER ONE */
+.cards-banner-one {
+  width: 100%;
+  height: 350px;
+  background: url(https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2021/03/10/6048f3390ced2.r_d.972-456-0.jpeg) no-repeat;
+  margin-bottom: 40px;
+  color: white; }
+  .cards-banner-one a {
+    color: white;
+    margin-top: 5px; }
+  .cards-banner-one font {
+    color: white; }
+  .cards-banner-one .textCard {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px; }
+  .cards-banner-one .content {
+    width: 40%;
+    padding: 90px 0 0 30px;
+    color: #fff; }
+    .cards-banner-one .content .fas color p {
+      margin: 5px; }
+    .cards-banner-one .content .cards-banner-two p {
+      margin: 10px 0 20px 0; }
+    .cards-banner-one .content .cards-banner-two .btn-sabermas {
+      cursor: pointer;
+      display: inline-block;
+      border: 0;
+      font-weight: bold;
+      padding: 10px 20px;
+      background: #262626;
+      color: white;
+      font-size: 15px;
+      border: 1px solid #fff;
+      margin-top: 5px; }
+
+.cont2 {
+  background-image: url(https://www.ecestaticos.com/imagestatic/clipping/cf4/3de/cf43de1bbf0a49b870df55c018c4e3d5/sales-este-finde-vas-a-beber-haz-esto.jpg?mtime=1622785183); }
+
+/* mixin  */
+/* mediaqueries  */
+/* celular */
+@media (max-width: 700px) {
+  .menu_bar {
+    display: block;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: #E6344A; }
+    .menu_bar .menu-btn {
+      display: block;
+      padding: 20px;
+      color: #fff;
+      overflow: hidden;
+      font-size: 25px;
+      font-weight: bold;
+      text-decoration: none; }
+      .menu_bar .menu-btn .menu-btn:hover {
+        opacity: 0.5; }
+        .menu_bar .menu-btn .menu-btn:hover i {
+          float: right;
+          font-size: 40px; }
+  .nav-main {
+    display: block; }
+    .nav-main ul {
+      position: relative;
+      background: #2f3640;
+      width: 50%;
+      height: 100%;
+      border-right: #ccc 1px solid;
+      opacity: 0.9;
+      padding: 30px;
+      transform: translateX(-1000px);
+      transition: transform 0.5s ease-in-out; }
+  .news-cards {
+    grid-template-columns: repeat(2, 1fr); }
+  .cards-banner-one .content {
+    width: 80%; }
+  .contentEcomerce {
+    width: 100%; }
+  .footer-links .footer-container {
+    grid-template-columns: repeat(2, 1fr); } }
+
+@media (max-width: 500px) {
+  .news-cards {
+    grid-template-columns: 1fr; }
+  .cards-banner-one .content {
+    width: 100%;
+    padding: 60px 20px; }
+  .contentEcomerce {
+    width: 100%; }
+  .footer-links .footer-container {
+    grid-template-columns: 1fr; }
+  .footer-links .footer-container ul {
+    text-align: center; } }
+
+@media only screen and (min-width: 29.8125rem) {
+  .ft-main {
+    justify-content: space-evenly; } }
+
+@media only screen and (min-width: 77.5rem) {
+  .ft-main {
+    justify-content: space-evenly; } }
+
+.container .nosotros {
+  color: antiquewhite;
+  background-image: url(https://images.jumpseller.com/store/master-beer/page/226705/brewery.jpg.jpg?0); }
+  .container .nosotros .pHis {
+    font-size: 40px;
+    color: #DDC91F; }
+  .container .nosotros .fondo {
+    background-color: rgba(14, 14, 14, 0.578); }
+
+.container .pA {
+  text-align: center;
+  color: #DDC91F;
+  font-size: 40px;
+  margin: 10px; }
+
+.container .container2 {
+  text-align: center; }
+  .container .container2 .nombres {
+    font-size: 30px; }
+
+.container .pMomentos {
+  text-align: center;
+  font-size: 40px;
+  color: #DDC91F;
+  margin: 40px 0 0 30px;
+  font-weight: bolder; }
+
+.container .album {
+  background-color: #a3a7a7;
+  border-radius: 10px; }
+
+.container3 {
+  justify-content: center;
+  margin-top: 50px;
+  align-content: center; }
+  .container3 a:hover {
+    color: #DDC91F; }
+  .container3 .mb-3 {
+    font-size: 30px; }
+  .container3 .mensaje {
+    width: 60%;
+    margin-top: 20px; }
+  .container3 .enviar {
+    width: 60%;
+    color: #31291e;
+    margin-bottom: 20px;
+    margin-top: 20px; }
+  .container3 .gpsTi {
+    text-align: center;
+    font-size: 30px;
+    margin: 10px; }
+  .container3 .ft-main {
+    background-color: #000000; }
+    .container3 .ft-main .linkF {
+      text-decoration: none; }
+      .container3 .ft-main .linkF a:hover {
+        color: #13e013; }
+  .container3 .ft-title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold; }
+  .container3 .suscribir {
+    background-color: #DDC91F;
+    padding: 4px;
+    margin-left: 2px;
+    border-radius: 4px; }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "Oswald", sans-serif;
+  background-color: #000000;
+  background-image: url("http://www.solofondos.com/wp-content/uploads/2015/11/new-fondo1lateral.jpg");
+  color: #1e272e;
+  color: #fff;
+  font-size: 16px;
+  display: grid;
+  /* Responsive Button */
+  /* Generic styling */
+  /* Sticks footer to bottom */
+  /* Footer main */
+  /* Footer main | Newsletter form */
+  /* Footer social */
+  /* Footer legal */ }
+  body .container {
+    width: 90%;
+    margin: auto;
+    /* Navigation */
+    /* frase */
+    /*  Video */
+    /* SOCIAL*/
+    /* footer */ }
+    body .container .menu-btn {
+      cursor: pointer;
+      position: relative;
+      z-index: 1;
+      display: none; }
+    body .container .nav-main {
+      font-size: 17px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 60px;
+      padding: 20px 0;
+      margin-top: 10px;
+      border-bottom: solid 2px #DDC91F; }
+      body .container .nav-main .nav-brand {
+        width: 50px; }
+      body .container .nav-main .nav-menu {
+        flex: 1;
+        margin-left: 20px; }
+      body .container .nav-main ul {
+        display: flex;
+        list-style: none; }
+      body .container .nav-main li {
+        padding: 10px; }
+      body .container .nav-main a {
+        padding: 2px;
+        transition: all 300ms;
+        position: relative;
+        color: #FFFFFF;
+        text-decoration: none; }
+      body .container .nav-main a:hover {
+        border-bottom: 2px solid #DDC91F;
+        color: #DDC91F;
+        transform: scale(1.14); }
+    body .container H1 {
+      text-align: center;
+      color: #DDC91F;
+      margin: 20px; }
+    body .container .breadcrumb-item {
+      text-decoration: none; }
+      body .container .breadcrumb-item a {
+        text-decoration: none;
+        color: #DDC91F; }
+    body .container q {
+      padding: 5px;
+      text-align: center;
+      width: 100%;
+      color: #FFFFFF;
+      font-size: 30px;
+      display: block;
+      border: 2px solid #DDC91F;
+      border-color: #DDC91F rgba(255, 255, 255, 0) #DDC91F rgba(255, 255, 255, 0);
+      margin-top: 20px; }
+    body .container .content {
+      background-color: rgba(0, 0, 0, 0.306); }
+    body .container .video {
+      padding: 30px;
+      display: block;
+      flex: 30px;
+      justify-content: space-evenly;
+      text-align: center;
+      margin-top: 50px; }
+    body .container .social {
+      margin: 50px; }
+      body .container .social p {
+        color: #DDC91F;
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 20px; }
+      body .container .social .links {
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+        body .container .social .links a {
+          margin: 0 30px; }
+          body .container .social .links a i {
+            font-size: 3rem;
+            color: white; }
+    body .container .footer-x {
+      text-align: center;
+      align-content: center; }
+      body .container .footer-x p {
+        font-size: 20px;
+        font-style: italic; }
+    body .container .product-container {
+      padding: 0;
+      display: flex; }
+    body .container .product-card {
+      flex: 0 0 auto;
+      width: 250px;
+      height: 450px;
+      margin-right: 40px; }
+    body .container .product-image {
+      position: relative;
+      width: 100%;
+      height: 350px;
+      overflow: hidden; }
+    body .container .product-thumb {
+      width: 100%;
+      height: 350px;
+      object-fit: cover; }
+    body .container .discount-tag {
+      position: absolute;
+      background: #DDC91F;
+      padding: 5px;
+      border-radius: 5px;
+      color: #ffffff;
+      right: 10px;
+      top: 10px;
+      text-transform: capitalize; }
+    body .container .card-btn {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      padding: 10px;
+      width: 90%;
+      text-transform: capitalize;
+      border: none;
+      outline: none;
+      background: #fff;
+      border-radius: 5px;
+      transition: 0.5s;
+      cursor: pointer;
+      opacity: 0; }
+    body .container .product-card:hover .card-btn {
+      opacity: 1; }
+    body .container .card-btn:hover {
+      background: #efefef; }
+    body .container .product-info {
+      width: 100%;
+      height: 100px;
+      padding-top: 10px; }
+    body .container .product-brand {
+      text-transform: uppercase;
+      font-size: 30px;
+      text-align: center; }
+    body .container .product-short-des {
+      width: 100%;
+      height: 20px;
+      line-height: 20px;
+      overflow: hidden;
+      opacity: 0.5;
+      text-transform: capitalize;
+      margin: 5px 0;
+      text-align: center; }
+    body .container .price {
+      font-weight: 900;
+      font-size: 25px;
+      text-align: center;
+      color: #DDC91F; }
+    body .container .actual-price {
+      margin-left: 20px;
+      opacity: 0.5;
+      text-decoration: line-through;
+      text-align: center;
+      color: #ababab; }
+    body .container .tituloLatas {
+      text-align: center;
+      font-size: 50px;
+      text-align: center;
+      margin: 60px; }
+  body * {
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    padding: 0; }
+  body ul {
+    list-style: none;
+    padding-left: 0; }
+  body footer {
+    background-color: #555;
+    color: #bbb;
+    line-height: 1.5; }
+  body footer a {
+    text-decoration: none;
+    color: #eee; }
+  body a:hover {
+    text-decoration: underline; }
+  body .ft-title {
+    color: #fff;
+    font-family: "Merriweather", serif;
+    font-size: 1.375rem;
+    padding-bottom: 0.625rem; }
+  body body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column; }
+  body .container3 {
+    flex: 1; }
+  body .ft-main {
+    padding: 1.25rem 1.875rem;
+    display: flex;
+    flex-wrap: wrap; }
+  body .ft-main-item {
+    padding: 1.25rem;
+    min-width: 12.5rem; }
+  body form {
+    display: flex;
+    flex-wrap: wrap; }
+  body input[type="email"] {
+    border: 0;
+    padding: 0.625rem;
+    margin-top: 0.3125rem; }
+  body input[type="submit"] {
+    background-color: #00d188;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    padding: 0.625rem 0.9375rem;
+    margin-top: 0.3125rem; }
+  body .ft-social {
+    padding: 0 1.875rem 1.25rem; }
+  body .ft-social-list {
+    display: flex;
+    justify-content: center;
+    border-top: 1px #777 solid;
+    padding-top: 1.25rem; }
+  body .ft-social-list li {
+    margin: 0.5rem;
+    font-size: 1.25rem; }
+  body .ft-legal {
+    padding: 0.9375rem 1.875rem;
+    background-color: #333; }
+  body .ft-legal-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; }
+  body .ft-legal-list li {
+    margin: 0.125rem 0.625rem;
+    white-space: nowrap; }
+  body .ft-legal-list li:nth-last-child(2) {
+    flex: 1; }
+  body .ulCe {
+    margin: 10px;
+    color: #DDC91F; }

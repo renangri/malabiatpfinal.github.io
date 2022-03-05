@@ -1,0 +1,79 @@
+                               /* News Cards */
+                               
+                               .news-cards {
+                                   display: grid;
+                                   grid-template-columns: repeat(4, 1fr);
+                                   gap: 25px;
+                                   margin: 70px 0;
+                                   img {
+                                       width: 100%;
+                                       height: 180px;
+                                   }
+                                   h3 {
+                                       font-size: 20px;
+                                       margin: 10px 0;
+                                   }
+                                   a {
+                                       padding: 10px 0;
+                                       color: #f2f2f2;
+                                       text-transform: uppercase;
+                                       display: inline-block;
+                                       font-weight: bold;
+                                   }
+                                   .textCard {
+                                       font-size: 30px;
+                                       font-weight: bold
+                                   }
+                               }
+                               /* CARDS BANNER ONE */
+                               
+                               .cards-banner-one {
+                                   width: 100%;
+                                   height: 350px;
+                                   background: url(https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2021/03/10/6048f3390ced2.r_d.972-456-0.jpeg) no-repeat;
+                                   margin-bottom: 40px;
+                                   color: white;
+                                   a {
+                                       color: white;
+                                       margin-top: 5px;
+                                   }
+                                   font {
+                                       color: white;
+                                   }
+                                   .textCard {
+                                       font-size: 30px;
+                                       font-weight: bold;
+                                       margin-bottom: 10px;
+                                   }
+                                   .content {
+                                       width: 40%;
+                                       padding: 90px 0 0 30px;
+                                       color: #fff;
+                                       .fas {
+                                           color p {
+                                               margin: 5px;
+                                           }
+                                       }
+                                       .cards-banner-two {
+                                           p {
+                                               margin: 10px 0 20px 0;
+                                           }
+                                           .btn-sabermas {
+                                               cursor: pointer;
+                                               display: inline-block;
+                                               border: 0;
+                                               font-weight: bold;
+                                               padding: 10px 20px;
+                                               background: #262626;
+                                               color: rgb(255, 255, 255);
+                                               font-size: 15px;
+                                               border: 1px solid #fff;
+                                               margin-top: 5px;
+                                           }
+                                       }
+                                   }
+                               }
+                               
+                               .cont2 {
+                                   background-image: url(https://www.ecestaticos.com/imagestatic/clipping/cf4/3de/cf43de1bbf0a49b870df55c018c4e3d5/sales-este-finde-vas-a-beber-haz-esto.jpg?mtime=1622785183);
+                               }

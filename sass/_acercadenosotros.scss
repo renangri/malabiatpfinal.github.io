@@ -1,0 +1,36 @@
+.container {
+    .nosotros {
+        color: antiquewhite;
+        background-image: url(https://images.jumpseller.com/store/master-beer/page/226705/brewery.jpg.jpg?0);
+        .pHis {
+            font-size: 40px;
+            color: $colorSegundario;
+        }
+        .fondo {
+            background-color: rgba(14, 14, 14, 0.578);
+        }
+    }
+    .pA {
+        text-align: center;
+        color: $colorSegundario;
+        font-size: 40px;
+        margin: 10px;
+    }
+    .container2 {
+        text-align: center;
+        .nombres {
+            font-size: 30px;
+        }
+    }
+    .pMomentos {
+        text-align: center;
+        font-size: 40px;
+        color: $colorSegundario;
+        margin: 40px 0 0 30px;
+        font-weight: bolder;
+    }
+    .album {
+        background-color: rgb(163, 167, 167);
+        border-radius: 10px;
+    }
+}
